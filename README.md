@@ -24,11 +24,11 @@ You can interact with the reproducibility checklist. Results are saved to `~/rep
 
 ## Environment management
 
-1. Click on “Create Environment”. This step can take while. This creates a new virtual environment in `~/my_venv`.
+1. Click on “Create Environment”. This step can take while. This creates a new environment in `~/my_venv`.
 
    ![create-environment.png](img/create-environment.png)
 
-   At this point, you can restart your virtual lab instance to use the newly-created virtual environment as a notebook kernel. To do so, click on “File > Logout” and start the virtual lab again. You can then select the virtual environment from the list of available kernels.
+   At this point, you can restart your virtual lab instance to use the newly-created environment as a notebook kernel. To do so, click on “File > Logout” and start the virtual lab again. You can then select the environment from the list of available kernels.
 
 2. Click on “Freeze Dependencies”. This creates a list of the dependencies installed in the current environment in `~/requirements.txt`. This file can later be used to install the dependencies on a different machine.
 
