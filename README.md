@@ -1,4 +1,6 @@
 # Reprolab demo
+> [!WARNING]
+> This proof of concept currently only works on files in the home directory. Do not use this for actual virtual lab development.
 
 ## Getting started
 
