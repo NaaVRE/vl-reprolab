@@ -9,6 +9,8 @@
    ![navigate-to-home.png](img/navigate-to-home.png)
 
 2. Create a new Python notebook
+> [!WARNING]
+> Create the notebook in the home directory. This proof of concept only works if the Reprolab code is run from a notebook in the home directory.
 
    ![create-notebook.png](img/create-notebook.png)
 
@@ -49,7 +51,10 @@ To use the experiment management feature, we first need to create a git reposito
    git config --global user.email 'you@example.com'
    git config --global user.name 'You'
    git config --global --add safe.directory /home/jovyan
+   echo -e '*\n!requirements.txt\n!reprolab_data/\n!*.ipynb' > .gitignore
    ```
+   The last command `echo ...` create a gitignore file that ignores everything, except `requirements.txt`, anything in the directory `reprolab_data` and any `.ipynb` files in the home directory.
+
 
 3. Go back to the notebook and click on “Create Experiment”. This commits your changes and creates a tag.
 
