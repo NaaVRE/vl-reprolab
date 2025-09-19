@@ -57,6 +57,3 @@ To use the experiment management feature, we first need to create a git reposito
 
 
 3. Go back to the notebook and click on “Create Experiment”. This commits your changes and creates a tag.
-
-> [!WARNING]
-> This will commit everything in your home directory, which can take a very long time if you have more than a handful of files.
