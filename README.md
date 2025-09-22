@@ -54,9 +54,9 @@ To use the experiment management feature, we first need to create a git reposito
    git config --global user.email 'you@example.com'
    git config --global user.name 'You'
    git config --global --add safe.directory /home/jovyan
-   echo -e '*\n!requirements.txt\n!reprolab_data/\n!*.ipynb' > .gitignore
+   echo -e '* \n!requirements.txt \n!reprolab_data/reproducibility_checklist.json \n!*.ipynb' > .gitignore
    ```
-   The last command `echo ...` creates a gitignore file ignoring everything, except: `requirements.txt`, anything in the directory `reprolab_data` and any `.ipynb` files in the home directory.
+   The last command "`echo ...`" creates a gitignore file ignoring everything, except: `requirements.txt`, `reprolab_data/reproducibility_checklist.json` and any `.ipynb` files in the home directory.
 
 
 3. Go back to the notebook and click on “Create Experiment”. This commits your changes and creates a tag.
