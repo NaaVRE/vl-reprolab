@@ -73,7 +73,7 @@ To use the experiment management feature, we first need to create a git reposito
 7. Run the cell with `end_experiment()`.
 8. Push the commit to git.
 
-## Data archiving 
+## Configure AWS S3 credentials for data archiving
 This feature is currently not supported.
 
 ## Publishing software and data to Zenodo
