@@ -62,3 +62,4 @@ To use the experiment management feature, we first need to create a git reposito
 > An improperly configured `.gitignore` can lead to committing secrets, making them detectable. To prevent this, only track files that do not contain sensitive data.
 
 3. Go back to the notebook and click on “Create Experiment”. This commits your changes and creates a tag.
+4. Push the commit to 
