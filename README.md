@@ -56,9 +56,9 @@ To use the experiment management feature, we first need to create a git reposito
    git config --global user.name 'You'
    git config --global --add safe.directory /home/jovyan
    git remote add origin [The git repository you created]
-   echo -e '* \n!requirements.txt \n!reprolab_data/reproducibility_checklist.json \n!*.ipynb' > .gitignore
+   echo -e '* \n!requirements.txt \n!reprolab_data/reproducibility_checklist.json \n!reprolab_data/*.pickle.pkl.gz \n!*.ipynb' > .gitignore
    ```
-   The last command "`echo ...`" creates a gitignore file ignoring everything, except: `requirements.txt`, `reprolab_data/reproducibility_checklist.json` and any `.ipynb` files in the home directory.
+   The last command "`echo ...`" creates a gitignore file ignoring everything, except: `requirements.txt`, `reprolab_data/reproducibility_checklist.json`, any `.pickle.pkl.gz` files in `reprolab_data` and any `.ipynb` files in the home directory.
 
 > [!WARNING]
 > An improperly configured `.gitignore` can lead to committing secrets, making them detectable. To prevent this, only track files that do not contain sensitive data.
