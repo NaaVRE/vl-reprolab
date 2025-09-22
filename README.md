@@ -35,8 +35,8 @@ You can interact with the reproducibility checklist. Results are saved to `~/rep
 
    ![create-environment.png](img/create-environment.png)
 
-   > [!WARNING]
-   > Currently this only works to initialize a virtual environment, not to update it. In the future this will changed to creating a conda environment.
+> [!WARNING]
+> Currently this only works to initialize a virtual environment, not to update it. In the future this will changed to creating a conda environment.
 
    At this point, you can restart your virtual lab instance to use the newly-created environment as a notebook kernel. To do so, click on “File > Logout” and start the virtual lab again. You can then select the environment from the list of available kernels.
 
