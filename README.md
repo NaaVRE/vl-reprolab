@@ -62,6 +62,6 @@ To use the experiment management feature, we first need to create a git reposito
    The last command "`echo ...`" creates a gitignore file ignoring everything, except: `requirements.txt`, `reprolab_data/reproducibility_checklist.json` and any `.ipynb` files in the home directory.
 
 > [!WARNING]
-> Incorrectly setting up your gitignore can lead to committing secrets. Make sure you only include files in git tracking that don't contain secrets.
+> An improperly configured `.gitignore` can lead to committing secrets, making them detectable. To prevent this, only track files that do not contain sensitive data.
 
 3. Go back to the notebook and click on “Create Experiment”. This commits your changes and creates a tag.
