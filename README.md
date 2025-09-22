@@ -12,6 +12,9 @@
 > [!WARNING]
 > Create the notebook in the home directory. This proof of concept only works if the Reprolab code is run from a notebook in the home directory.
 
+> [!WARNING]
+> Only Python is currently supported.
+
    ![create-notebook.png](img/create-notebook.png)
 
 3. Open the Reprolab panel
