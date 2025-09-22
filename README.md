@@ -1,6 +1,6 @@
 # Reprolab demo
 > [!WARNING]
-> This proof of concept currently only works on files in the home directory. Do not use this for actual virtual lab development.
+> This proof of concept only works on files in the home directory and requires you to set a gitignore to prevent all files in your virtual lab from being committed. Do not use this for actual virtual lab development.
 
 ## Getting started
 
